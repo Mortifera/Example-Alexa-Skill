@@ -1,0 +1,12 @@
+{
+  "name": "example-alexa-skill",
+  "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "build": "lerna run build",
+    "deploy": "lerna run build && cd packages/example-alexa-skill-infra && npx cdk deploy --require-approval never"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
