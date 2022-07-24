@@ -1,4 +1,4 @@
-=== Instructions ===
+**Instructions**
 
 1. Setup AWS CLI locally
 2. Configure local AWS credentials (create IAM user with permissions, get the programmatic credentials, then run ```aws configure``` command and give the CLI the credentials when asked)
